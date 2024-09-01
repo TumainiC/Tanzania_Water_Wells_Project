@@ -44,16 +44,16 @@ Ternary Target Modeling
 
 ### Understanding Data: 
 
-The data has a 59,400 rows and 41 columns. Of those 41 columns, 10 were numeric columns and the remaining 31 were string columns; known as object in pandas.
-After clearly observing the data through the .info method and the descriptive statistics of the numerical columns, we made some critical observations that will assist us in analyzing the data and coming up with an efficient model. These observations include:
-After going through the variable description of the data and performing the preliminary data inspection, we discovered that there are some columns that provide the same information which makes theme irrelevant in this study. The study discovered that 21 columns will not be used in this investigation and thus were deemed ‘repititve and unuseful’
+The data has a 59,400 rows and 41 columns. Of those 41 columns, 11 were numeric columns and the remaining 30 were string columns; known as object in pandas.
+After clearly observing the data through the .info method and the descriptive statistics of the numerical columns, we made some critical observations that will assist us in analyzing the data and coming up with an efficient model. 
+After going through the variable description of the data and performing the preliminary data inspection, we discovered that there are some columns that provide the same information which makes theme irrelevant in this study. The study discovered that 23 columns will not be used in this investigation and thus were deemed ‘repititve and unuseful’
 
 ## Data Preparation
 It is vital for data to be prepared before being staged for modelling to enhance the model's efficiency and prevent the generation of misleading insights. In this phase of the investigation, the study will look at missing values, duplicated entries, inconsistencies and invalid data. In this section, we first dropped the irrelevant columns mentioned in data understanding since we do not have to prepare columns that will not be used in the study. 
 ## Exploratory Data Analysis
 In this phase of the investigation, the study will look at the trends, patterns using visualizations and statistics to show the relationships between the variables within the data
 
-### Univariate, Bivariate and Multivariate analysis were performed on the data.
+### Univariate and Bivariate were performed on the data.
 ### EDA Conclusion
 For extraction type, submersible has the most amount of water available in the data despite not registering some of the highest heights. Motorpumps and submersible are generally located in low altitude areas, possibly because while there it is nearer to the water table than at a higher altitude. For a handpump to have water available above the median amount of total static head, it needs to be above a height of 500 meters above sea level
 

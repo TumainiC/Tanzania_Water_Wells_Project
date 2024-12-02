@@ -63,7 +63,7 @@ The anlaysis also discovers that communal standpipe seems to be the most popular
 Most of the wells that are never paid for were discovered to be non functional
 ![image](https://user-images.githubusercontent.com/78497452/198195550-fc7cee45-e5d9-4cd0-9bd3-d2f7e28a5531.png)
 
-##Preparing Data to Modeling: 
+## Preparing Data to Modeling: 
 
 To prepare our data to machine learning, we did some feature engineering, encoding and scaling.
 
